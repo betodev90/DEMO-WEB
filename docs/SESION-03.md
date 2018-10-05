@@ -44,3 +44,5 @@
         path('tienda/', views.store, name="store"),
     ]
     ```
+
+9. Crear un directorio para los templates en la aplicación `core`, de la siguiente manera `core/templates/core/`.

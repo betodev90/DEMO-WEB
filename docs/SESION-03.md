@@ -44,6 +44,12 @@
     * Contacto - contacto/
     * Blog - blog/
 
+    Para esto utilizar vistas basadas en función y ayudarse del core de django.
+    ```python
+    # importar el objeto HttResponse
+    from django.http import HttpResponse
+    ```
+
 10. Agregar las urls del proyecto `acerca-de`, `tienda`, `inicio` con la configuración de `core/urls.py`.
 
     ```python

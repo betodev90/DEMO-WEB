@@ -17,18 +17,18 @@
     ```python
         python manage.py startapp core
     ```
-5. Agregar a los archivos de configuración del proyecto en el `settings.py`.
+5. Declarar la aplicación `core` en el archivo de configuración del proyecto `settings.py`.
 
 6. Crear un archivo `urls.py` en el directorio de la aplicación es decir en `core/urls.py`.
 
-7. Crear las vistas para mostrar las paginas del menu, en el fichero `views.py`.
+7. Crear las vistas para mostrar las paginas del sitio web, en el fichero `core/views.py`.
 
-    * Inicio home/
-    * Historia acerca-de/
-    * Servicios servicios/
-    * Visítanos tienda/
-    * Contacto contacto/
-    * Blog blog/
+    * Inicio - home/
+    * Historia - acerca-de/
+    * Servicios - servicios/
+    * Visítanos - tienda/
+    * Contacto - contacto/
+    * Blog - blog/
 
 8. Agregar las urls del proyecto `acerca-de`, `tienda`, `inicio` con la configuración de `urls`.
 

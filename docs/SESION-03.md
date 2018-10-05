@@ -59,4 +59,6 @@
     ]
     ```
 
+11. Configurar en el fichero `urls.py` principal del proyecto que se encuentra en `website/urls.py` las `urls` que se crearon en la aplicación `core`.
+
 11. Crear un directorio para los templates en la aplicación `core`, de la siguiente manera `core/templates/core/`.

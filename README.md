@@ -1,4 +1,4 @@
-# Proyecto#1: Website para Empresa
+# Proyecto #1: Website para Empresa
 
 El presente proyecto es un sitio web administrable, dinámico el nombre de las páginas:
 

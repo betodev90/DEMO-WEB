@@ -30,7 +30,7 @@
     * Contacto - contacto/
     * Blog - blog/
 
-8. Agregar las urls del proyecto `acerca-de`, `tienda`, `inicio` con la configuración de `urls`.
+8. Agregar las urls del proyecto `acerca-de`, `tienda`, `inicio` con la configuración de `core/urls.py`.
 
     ```python
     from django.urls import path
@@ -39,6 +39,8 @@
     urlpatterns = [
         path('', views.home, name="home"),
         path('acerca-de/', views.about, name="about"),
+        path('contacto/', views.about, name="contact"),
+        path('blog/', views.about, name="blog"),
         path('tienda/', views.store, name="store"),
     ]
     ```

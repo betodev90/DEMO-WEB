@@ -71,4 +71,8 @@
 
 13. Fusionar el frontend con el backend, es decir revisar el directorio de ficheros estáticos `web-Frontend/` copiar los templates, y analizar las partes comunes para armar un template `core/templates/core/base.html`.
 
-14. Crear bloques para reutilizar el template `base.html` y usar herencia.
+14. Utilizar el motor de templates de django para crear bloques, de esa manera reutilizar el template `base.html` y usar herencia.
+
+    ```python
+    {% block title %}{% endblock %}
+    ```

@@ -70,3 +70,5 @@
 12. Crear un directorio para los templates en la aplicación `core`, de la siguiente manera `core/templates/core/`.
 
 13. Fusionar el frontend con el backend, es decir revisar el directorio de ficheros estáticos `web-Frontend/` copiar los templates, y analizar las partes comunes para armar un template `core/templates/core/base.html`.
+
+14. Crear bloques para reutilizar el template `base.html` y usar herencia.

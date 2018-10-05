@@ -7,21 +7,35 @@
     `git clone https://github.com/betodev90/DEMO-WEB`
 
 3. Activar el entorno virtual y de trabajo, recordar el comando.
-    
     ```python
     pipenv shell
     ```
+4. Verificar que este instalado django en su entorno virtual, con el comando.
+    ```python
+    pip list
+    ```
+    ó para instalar
 
-4. Crear una aplicación llamarla `core`.
+    ```python
+    pipenv install django
+    ```
+
+5. Crear un proyecto en django con el nombre de `website`. Ejecutar el siguiente comando:
+
+    ```python
+    django-admin.py startproject website .
+    ```
+
+6. Crear una aplicación llamarla `core`. Con el comando:
 
     ```python
         python manage.py startapp core
     ```
-5. Declarar la aplicación `core` en el archivo de configuración del proyecto `settings.py`.
+7. Declarar la aplicación `core` en el archivo de configuración del proyecto `settings.py`.
 
-6. Crear un archivo `urls.py` en el directorio de la aplicación es decir en `core/urls.py`.
+8. Crear un archivo `urls.py` en el directorio de la aplicación es decir en `core/urls.py`.
 
-7. Crear las vistas para mostrar las paginas del sitio web, en el fichero `core/views.py`.
+9. Crear las vistas para mostrar las paginas del sitio web, en el fichero `core/views.py`.
 
     * Inicio - home/
     * Historia - acerca-de/
@@ -30,7 +44,7 @@
     * Contacto - contacto/
     * Blog - blog/
 
-8. Agregar las urls del proyecto `acerca-de`, `tienda`, `inicio` con la configuración de `core/urls.py`.
+10. Agregar las urls del proyecto `acerca-de`, `tienda`, `inicio` con la configuración de `core/urls.py`.
 
     ```python
     from django.urls import path
@@ -45,4 +59,4 @@
     ]
     ```
 
-9. Crear un directorio para los templates en la aplicación `core`, de la siguiente manera `core/templates/core/`.
+11. Crear un directorio para los templates en la aplicación `core`, de la siguiente manera `core/templates/core/`.
